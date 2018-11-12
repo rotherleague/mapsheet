@@ -408,7 +408,7 @@
 
     // Only overwrite if there's no tilePath, because the default subdomains is 'abc'
     if(!this.layerOptions.tilePath) {
-      this.layerOptions.tilePath = 'http://otile{s}.mqcdn.com/tiles/1.0.0/{type}/{z}/{x}/{y}.png';
+      this.layerOptions.tilePath = '//c.tile.{type}.org/{z}/{x}/{y}.png';
       this.layerOptions.subdomains = '1234';
       this.layerOptions.type = 'osm';
     }
